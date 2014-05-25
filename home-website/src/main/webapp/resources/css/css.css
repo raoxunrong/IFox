@@ -1,0 +1,11 @@
+@charset "utf-8";
+a{ text-decoration:none; color:#FFF;}
+a img{ border:none;}
+#box #bg #content .img-box,#box #bg #content .img-box div,#box #bg #content .img-box div img{ width:800px; height:450px; }
+#box #bg #content .img-box{ margin:auto;position:relative; }
+#box #bg #content .img-box span{ position:absolute;bottom:0;left:295px; width:201px;font-size:12px; line-height:25px;color:#FFF; z-index:100; background:#555; text-align:center;}
+#box #bg #content .img-box div{ position: absolute;cursor: all-scroll }
+#box #bg #content .btn-box{ width:800px; height:40px;margin: auto; cursor:pointer; background:#222; }
+#box #bg #content .btn-box .btn-margin{ width:210px; height:40px; margin: auto;}
+#box #bg #content .btn-box .btn-margin #btn-prev,#box #bg #content .btn-box .btn-margin #btn-next{ width:100px; height:38px; line-height:38px; margin:1px 1px 0 0;  text-align:center; float:left;color:#FFF;  background:#555; }
+

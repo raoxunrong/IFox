@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.operate ul li { border-bottom:1px dotted #d2d2d2; display:inline-block; width:100%; position: relative; min-height:43px; _height:43px; z-index: 10; zoom:1 }
+.operate ul li h4 { cursor:pointer; background:url(../images/bg3.png) no-repeat 200px 18px; padding-left:30px; text-decoration:none; font-size:18px; color:#555; display:block;  line-height:43px; font-weight:normal;   font-family:"仿宋";  color:#004080;
+}
+.operate ul li.noline { border-bottom:none; }
+.operate ul li h4:hover { color:#8caf00; text-decoration:underline; }
+.operate ul li.selected h4 { background-position:200px -37px; border-bottom:1px dotted #d2d2d2; }
+.operate ul li a { }
+.operate ul li .on a { color:#8caf00; font-weight:bold; }
+.operate ul li a:hover { color:#8caf00; text-decoration:underline; }
+.bg-color { background-color:#8caf00; }
+
+.operate ul { }
+.operate li .list-item { padding:5px 0; position:relative; zoom:1 }
+.operate li .list-item p { padding-left:8px; background:url(../images/ico_li.png) no-repeat 60px center; }
+.operate li .list-item a { background:none;  border:none; color: #333333; display:block; height:32px; line-height: 32px; margin: 0 -1px 0 1px; padding-left: 60px;  position: relative; text-decoration: none; font-size:14px; font-family:"仿宋" ;  color:#CC3333 }
+
+ 

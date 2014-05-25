@@ -1,0 +1,29 @@
+
+*{margin:0; padding:0;}
+ul{list-style-type:none;}
+img{border:0;}
+a:focus{outline:none;}
+#slide1{width:620px; float:left; display:inline; position:relative;}
+
+
+#desc1,#desc2{width:620px;}
+.descriptions{position:absolute; left:0; bottom:0; z-index:12; margin:0 !important; float:left; display:inline;}
+.descriptions li{display:none; background:url(../images/trans.png) repeat; width:550px; padding:5px 25px; float:left; diaplay:inline;position:absolute; bottom:0; z-index:13;}
+.descriptions p{font-size:1.2em;}
+.img_cont{width:620px; height:365px; float:left; display:inline;position:relative;border:#000 0px solid;}/*should be the same size as your large image */
+.main_images{width:620px; height:365px; float:left; display:inline;}/*should be the same size as your large image */
+.main_images li{width:620px; position:absolute; left:0px; top:0px;  display:inline; height:315px; display:none;z-index:11; }/*should be the same size as your large image */
+.slideshow{position:relative;}
+.thumb_holder{position:relative; float:left; width:500px;overflow:hidden; height:76px;margin:10px 0 0 0;}
+.thumbs{position:absolute;left:0; }
+.section{width:520px;float:left; display:inline;overflow:hidden;}
+.section li{float:left; display:inline; margin:5px 10px; width:60px; height:58px; background-color:#000;}/*should be the same size as your thumbnails */
+.sub_section{float:left; display:inline;} 
+.prev_btn, .next_btn{width:60px; float:left; display:inline;margin:10px 0 0 0;}
+.current_desc{display:inline;}
+
+/*demo styles you can delete these*/
+#wrapper{width:620px;  padding:30px 10px;margin:0 auto;}
+h1{color:#000; margin-bottom:.4em; text-align:center;text-transform:uppercase;}
+.photo_credits, .photo_credits a{ font-family:Georgia, "Times New Roman", Times, serif;font-size:1.2em; color:#B22121; font-style:italic; text-align:center; margin-bottom:1.2em;}
+.photo_credits span{text-transform:uppercase; letter-spacing:2px; font-style:normal!important; }

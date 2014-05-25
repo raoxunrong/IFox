@@ -1,0 +1,84 @@
+/* css 重置 */* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	border: 0;
+}
+
+/* 本例子css */
+.#box #bg #content .zzsc{
+	width: 327px;
+	height: 327px;
+	margin-left:100px;
+}
+#box #bg #content .zzsc .item_477_327 {
+	width: 327px;
+	height: 327px;
+} 
+#box #bg #content .zzsc .item_163_327 {
+	width: 163px;
+	height: 327px;
+}
+.zzsc .item_163_327 img {
+	width: 163px;
+	height: 367px;
+}
+#box #bg #content .zzsc .item_327_163 {
+	width: 327px;
+	height: 163px;
+}
+#box #bg #content .zzsc .main_content {
+	position: absolute;
+	z-index: 0;
+}
+#box #bg #content .zzsc.main_content li {
+	width: 327px;
+	height: 327px;
+	padding-left:0px;
+}
+#box #bg #content .zzsc .main_content li a {
+	overflow: hidden;
+	float: left;
+	display: block;
+	_display: inline;
+	margin: 0 1px 1px 0;
+	font-size: 0;
+	line-height: 0;
+}
+#box #bg #content .zzsc .main_content li a img {
+	vertical-align: middle;
+	position: relative;
+}
+#box #bg #content .zzsc .bor_slide {
+	position:absolute;
+    right:300px;
+	top:290px;
+	width: 30px;
+	}
+#box #bg #content .zzsc .bor_slide li {
+	width: 30px;
+	height: 30px;
+	margin-bottom: 8px;
+	
+	cursor: pointer;
+	font: normal 12px Arial;
+	color: #fff;
+	background: #474E5D;
+}
+#box #bg #content .zzsc .bor_slide li.on {
+	background: #3382EF;
+}#box #bg #content #cont {
+	height: 327px;
+	width: 327px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 200px;
+	
+}
+#box #bg #content #bg1 {
+	background-color:#CCCCCC;
+}

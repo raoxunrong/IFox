@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+#box {
+	height: 440px;
+	width: auto;
+}
+#box #head {
+	background-color: #103667;
+	height: 30px;
+	width: auto;
+}
+#box #bg {
+background-image:url(../images/back.jpg);
+	height: 420px;
+	width: auto;
+}
+#box #bg #content {
+ 
+	background-color:#FFFFFF;
+	height: 440px;
+	width: 955px;
+	margin-top:80px;
+	margin-left:15%;
+}
+#box #bg #content #title {
+
+	width: 955px;
+	height:25px;
+	
+}
+
+#box #bg #content #title a {
+font-weight: 600;
+font-family:"Adobe 仿宋 Std R";
+font-size:16px;
+color:#333333;
+text-decoration:none;
+}
+ #box #bg #content #title a:hover{
+color:#CC0033;
+
+}
+
+ #box #bg #content #title ul {
+
+list-style:none;
+padding-left:13%;
+border-bottom-width:1px;
+border-bottom-style:groove;
+border-bottom-color:#CC0000;
+height:30px;
+}
+ #box #bg #content #title ul li {  
+   padding:0 23px 0 23px;
+   border-right:1px solid #DDDDDD;
+
+   line-height:20px;
+   
+   display:inline-block;
+
+}
+#box #bg #content #picture {
+  
+	float: left;
+	height: 288px;
+	width: 310px;
+	margin-left:12px;
+	margin-top:18px;
+}
+
+ 
+#box #bg #content #word {
+	float: right;
+	height: 220px;
+	width: 600px;
+	margin-right:14px;
+	margin-top:52px;
+}
+   #box #bg #footer ul {
+   padding-top:27px;
+margin-left:20%;
+}
+#box #bg #footer a {
+color:#000000;
+text-decoration:none;
+font-family:"仿宋";
+}
+#box #bg #footer li {
+padding-right:20px;
+padding-left:20px;
+ border-right:1px solid #FFFFFF;
+ 
+   line-height:15px;
+   float:left;
+   list-style:none;
+
+}
+#box #bg #footer #add {
+font-family:"仿宋";
+line-height:50px;
+margin-left:25%;
+}
+#box #bg #footer {
+background-color: #DEDEDE;
+	height: 130px;
+	width: auto;
+}
+
+
+#box #bg #footer a:hover{
+color:#CC0033;
+}
+
+
+#box #bg #content #word2 {
+	width: 955px;
+	height: 100px;
+	float:left;
+	padding-top:25px ;
+	*padding-top:5px;
+	padding-top:4px\0;
+ 
+ 
+} 
+
+
+  

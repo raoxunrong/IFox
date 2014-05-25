@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+ 
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+ 
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+
+.hidden { visibility:hidden }
+.none { display:none }
+.inblock { display:inline-block } 
+.main { margin:15px auto 0 auto;  overflow:hidden; zoom:1 }
+.main .left-sider { float:left; width:221px; }
+.operate h3 { font-family:"仿宋"; font-size:16px; background:#f7f7f7; height:43px; line-height:43px; padding-left:30px; }
+.operate ul li { display:inline; }
+.operate ul li a { background:url(../images/bg1.png) no-repeat 200px 18px; padding-left:30px; text-decoration:none; font-size:16px; color:#555; display:block;  height:43px;  line-height:45px;  }
+.operate ul li a.noline { border-bottom:none; }
+.operate ul li a:hover{ color:#8caf00; }
+.operate ul li a.selected:hover { color:#fff; }
+.operate ul li .selected { background-color:#8caf00;  background-position:200px -9px; color:#fff; }
+.left-sider .operate { border:1px solid #eaeaea;  zoom:1 }
+.left-sider .ser-online a { background:url(../images/bg_ser_online.jpg) no-repeat 0 0; margin-top:15px; height:75px; border:1px solid #eaeaea; display:block; }
+ 
+
+ 
+ 

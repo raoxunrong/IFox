@@ -1,0 +1,116 @@
+
+@charset "utf-8";
+
+#box {
+	height: 440px;
+	width: auto;
+}
+#box #head {
+	background-color: #103667;
+	height: 30px;
+	width: auto;
+}
+#box #bg {
+background-image:url(../images/back.jpg);
+	height: 300px;
+	width: auto;
+}
+#box #bg #content {
+ 
+	background-color:#FFFFFF;
+	height: 300px;
+	width: 955px;
+	margin-top:80px;
+	margin-left:15%;
+}
+#box #bg #content #title {
+
+	width: 955px;
+	height:25px;
+	
+}
+#box #bg #content #imag {
+padding-top:3px;
+	width: 955px;
+	height:340px;
+}
+
+#box #bg #content #title a {
+font-weight: 600;
+font-family:"Adobe ???? Std R";
+font-size:16px;
+color:#333333;
+text-decoration:none;
+}
+ #box #bg #content #title a:hover{
+color:#CC0033;
+
+}
+
+ #box #bg #content #title ul {
+ border-bottom-width:1px;
+border-bottom-style:groove;
+border-bottom-color:#CC0000;
+height:23px;
+list-style:none;
+padding-left:13%;
+}
+ #box #bg #content #title ul li {  
+   padding:0 23px 0 23px;
+   border-right:1px solid #DDDDDD;
+
+   line-height:20px;
+   
+   display:inline-block;
+
+}
+#box #bg #content #words {
+	font-family: "Adobe ·ÂËÎ Std R";
+	font-size: 24px;
+	font-weight: bold;
+	color: #000033;
+	text-decoration: blink;
+	margin-left:20px;
+	margin-top:25px;
+	margin-right:20px;
+}
+#box #bg #content #weth {
+	margin-top: 30px;
+	margin-left: 230px;
+}
+#box #bg #content #words #weather {
+	margin-left: 200px;
+}
+#box #bg #footer {
+	background-color: #DEDEDE;
+	height: 140px;
+	width: auto;
+}
+#box #bg #footer li {
+ 
+padding-right:20px;
+padding-left:20px;
+ border-right:1px solid #FFFFFF;
+ 
+   line-height:15px;
+   float:left;
+   list-style:none;
+}
+#box #bg #footer a {
+color:#000000;
+text-decoration:none;
+font-family:"·ÂËÎ";
+}
+#box #bg #footer a:hover{
+color:#cc0033;
+}
+#box #bg #footer #add {
+font-family:"·ÂËÎ";
+line-height:50px;
+margin-left:25%;
+}
+
+#box #bg #footer ul {
+padding-top:27px;
+margin-left:20%;
+}
